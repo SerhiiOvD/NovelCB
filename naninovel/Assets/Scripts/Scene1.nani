@@ -1,0 +1,38 @@
+; Location 1: Syntex Factory
+
+@goto .Quest1 if:Quest==1
+@goto .Quest2 if:Quest==2
+
+@back Location1
+@printer NewDialogue
+@print "You approaches Niki at the factory."
+@char Niki pos:75,-10 appearance:Happy scale:0.5
+Niki: "Hey, {PlayerName}, long time no see. I've got something for you, something that could change our lives. Have you heard of the Interface Module? It’s the key to corporate security systems. Whoever gets it can crack any database. And I have a feeling that Mike knows where to find it."
+@choice "What’s this module? Where did it come from, and why didn’t Mike tell me?"
+@stop
+Niki: "Looks like Mike found a lead on an old service station. That module is rare and dangerous. I’m sure it's there. Mike doesn’t like to share info until he knows he can trust you." 
+@choice "Are you sure? Could it just be another one of his tall tales?"
+@stop
+Niki: "Don’t underestimate Mike. He knows where to look for things. If he’s found something, it’s no small matter."
+@choice "Alright. I’ll talk to Mike."
+@stop
+Niki: "Good. Don’t waste any time. Head to the Dark Docks. He’ll be there. And be careful, {PlayerName}, this could be more dangerous than it seems."
+@set Quest=1
+@toast "Quest: Go to Mike lab"
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map1
+@stop
+
+# Quest1
+@toast "Go to Mike lab"
+@back Location1
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map1
+@stop
+
+# Quest2
+@back Location1
+@toast "Find the Interface module"
+@back Location1
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+@stop

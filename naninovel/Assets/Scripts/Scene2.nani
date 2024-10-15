@@ -1,0 +1,71 @@
+; Location 2: Dark Docks
+@goto .Quest2 if:Quest==2
+@back Location2
+@print "You meet Mike at the Dark Docks to discuss the Interface Module."
+@char Mike look:right pos:20,-10 appearance:Default scale:0.5
+Mike: "So, you showed up. Niki said you'd want the module. I can give you the access codes, but first, you’ve got to prove you're up to the task. How do you feel about a little challenge?"
+
+@choice "Alright, Mike. What’s the challenge?" goto:.A2_1
+@choice "More of your games? Why don’t you just hand over the codes?" goto:.B2_1
+@choice "This is a waste of time. Just give me what I need." goto:.C2_1
+@stop
+
+# A2_1
+Mike: "You’ll need to hack one of the old security system servers. Show me you can handle it, and the codes are yours."
+@goto .minigame
+# B2_1
+Mike: "Ha! You know me. Nothing comes for free. First, prove you can handle this."
+@goto .minigame
+# C2_1
+Mike: "If you’re not ready for a small challenge, then you’re not ready for the module. Either play by the rules, or walk away."
+@goto .minigame
+
+# minigame
+@choice "Okey, I'm ready."
+@choice "Let's do it"
+@stop
+@loadScene MiniGame additive:true
+@resetText 
+@choice "I did it"
+@stop
+
+Mike: "Well, you pulled it off. Here are your codes. But there’s one problem — the system at the station might be protected. Niki has a cracking device. Without it, you won’t be able to get in."
+@choice "Thanks, Mike. I’ll handle it." goto:.A2_2
+@choice "Are you telling me everything? This seems a bit too easy." goto:.B2_2
+@choice "Of course, it’s never simple with you." goto:.C2_2
+@stop
+
+# A2_2
+@set Quest=2
+@toast "Quest updated: Find the Interface Module"
+
+Mike: "I hope so. Take care of yourself."
+@hide Mike
+@hidePrinter 
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+@stop
+
+# B2_2
+@set Quest=2
+@toast "Quest updated: Find the Interface Module"
+
+Mike: "You don’t need to know every detail. Just trust me and do your part."
+@hide Mike
+@hidePrinter 
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+@stop
+
+# C2_2
+@set Quest=2
+@toast "Quest updated: Find the Interface Module "
+
+Mike: "That’s the nature of our work, {PlayerName}. This city doesn’t forgive easy decisions."
+@hide Mike
+@hidePrinter 
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+@stop
+
+# Quest2
+@back Location2
+@toast "Find the Interface Module"
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2

@@ -1,0 +1,79 @@
+; English <en> to Ukrainian <uk> localization document for `FinalLocation2` naninovel script
+
+# 8dc05740
+; Mike: "{PlayerName}, I can’t believe you handed the module to Niki. She’s going to sell the city out, and you know it."
+Mike: "{PlayerName}, не можу повірити, що ти віддав модуль Нікі. Вона продасть це місто, і ти знаєш це."
+
+# 6e5b9b06
+; @choice "I did what I thought was right. Niki convinced me." goto:.Answer1_1
+@choice "Я зробив те, що вважав правильним. Нікі мене переконала." goto:.Answer1_1
+
+# 870c0da2
+; @choice "It’s done, Mike. No going back." goto:.Answer1_2
+@choice "Все вже зроблено, Майк. Немає шляху назад." goto:.Answer1_2
+
+# aeada7b
+; Mike: "Right? You call handing a weapon to the wrong person 'right'? You’ll regret this, ${PlayerName}."
+Mike: "Правильним? Ти вважаєш, що віддавати зброю не тій людині — це правильно? Ти ще пошкодуєш, {PlayerName}."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# 867d5ed7
+; Mike: "No going back, sure. But don’t expect me to clean up the mess when this blows up in your face."
+Mike: "Так, шляху назад немає. Але не чекай, що я прибиратиму цей безлад, коли все піде шкереберть."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# f2907863
+; Mike: "Good to see you, {PlayerName}. Thanks to the module, we’ve already shut down a few corporate systems. This city’s starting to breathe again."
+Mike: "Радий тебе бачити, {PlayerName}. Завдяки модулю, ми вже відключили кілька корпоративних систем. Місто починає дихати знову."
+
+# 619dab85
+; @choice "I’m glad I could help. It’s good to know the module is being used for something real." goto:.Answer2_1
+@choice "Радий, що зміг допомогти. Приємно знати, що модуль використовується на благо." goto:.Answer2_1
+
+# 3cc9e511
+; @choice "I hope this works out, Mike. I don’t want to see it backfire." goto:.Answer2_2
+@choice "Сподіваюсь, усе вийде, Майк. Не хочу, щоб усе це обернулося проти нас." goto:.Answer2_2
+
+# f5971ee0
+; Mike: "You did more than help, {PlayerName}. You made a difference. Stick with me, and we’ll keep this city alive."
+Mike: "Ти зробив більше, ніж просто допоміг, {PlayerName}. Ти зробив різницю. Тримайся мене, і ми будемо підтримувати життя в цьому місті."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# de4b7f47
+; Mike: "No worries, {PlayerName}. We’ve got this under control. But stay sharp, this fight’s far from over."
+Mike: "Не хвилюйся, {PlayerName}. Ми тримаємо ситуацію під контролем. Але будь на чеку, ця битва ще далеко не закінчена."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# cdde7f06
+; Mike: "So, you kept the module for yourself, {PlayerName}? You’re playing with fire. Don’t think for a second you’re safe now."
+Mike: "Отже, ти залишив модуль собі, {PlayerName}? Ти граєш з вогнем. Не думай, що тепер ти в безпеці."
+
+# dbe4f5b3
+; @choice "I couldn’t trust either of you. This way, I control what happens next." goto:.Answer3_1
+@choice "Я не міг довіритися жодному з вас. Так я контролюю, що буде далі." goto:.Answer3_1
+
+# ebf8cc73
+; @choice "I’m starting to think I made a mistake, Mike." goto:.Answer3_2
+@choice "Я починаю думати, що зробив помилку, Майк." goto:.Answer3_2
+
+# 926937b4
+; Mike: "Control? You’ve got no idea what you’re dealing with. This module is a target, and so are you now."
+Mike: "Контролюєш? Ти не маєш жодного уявлення, з чим ти маєш справу. Цей модуль — мішень, і тепер мішенню є і ти."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# ef2d1e6f
+; Mike: "Damn right, you did. It’s too late to fix it now, though. You’re on your own."
+Mike: "Ти абсолютно правий. Але вже пізно це виправляти. Тепер ти сам за себе."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4

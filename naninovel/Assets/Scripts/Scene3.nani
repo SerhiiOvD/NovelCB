@@ -1,0 +1,12 @@
+; Location 3: Abandoned Maintenance Station. The player arrives at the station, hacks the system, and finds the Interface Module.
+@back Location3
+@print "You arrive at the station, hacks the system, and find the Interface Module."
+@toast "The INTERFACE MODULE is taken"
+{PlayerName}: "There it is, the Interface Module. Now I see why this is so important..."
+{PlayerName}: "But who should I trust with it? Niki or Mike?"
+@hidePrinter 
+
+@set Quest=3
+@toast "Quest updated: Go to the Mike"
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map3
+@stop

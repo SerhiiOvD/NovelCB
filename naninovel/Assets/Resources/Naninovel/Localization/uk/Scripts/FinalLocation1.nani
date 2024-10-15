@@ -1,0 +1,79 @@
+; English <en> to Ukrainian <uk> localization document for `FinalLocation1` naninovel script
+
+# 62c0c264
+; Niki: "Good to see you back, {PlayerName}. Thanks to you, things are looking up for us. I've already sold some of the data, and the credits are rolling in. We’re going to be untouchable."
+Niki: "Рада бачити тебе знову, {PlayerName}. Завдяки тобі, наші справи йдуть вгору. Я вже продала частину даних, і кредити надходять. Ми станемо недоторканними."
+
+# 133638b0
+; @choice "Glad I could help. I hope it was worth it." goto:.Answer1_1
+@choice "Радий, що зміг допомогти. Сподіваюсь, воно того варте." goto:.Answer1_1
+
+# c441e1a
+; @choice "I still don’t trust this. You’re playing a dangerous game, Niki." goto:.Answer1_2
+@choice "Я досі не довіряю цьому. Ти граєш в небезпечну гру, Нікі." goto:.Answer1_2
+
+# 3b7619d2
+; Niki: "Oh, it was. You’ve done a good job. Stick with me, {PlayerName}, and we’ll run this city."
+Niki: "О, так, варте. Ти зробив чудову роботу. Тримайся мене, {PlayerName}, і ми будемо правити цим містом."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# fbb1d0d1
+; Niki: "Dangerous? Maybe. But the rewards are worth it. Just don’t look back now."
+Niki: "Небезпечну? Можливо. Але нагорода того варта. Головне - не оглядайся назад."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# 1a74c443
+; Niki: "So, you went with Mike, huh? Thought you could save the world, {PlayerName}? I hope you’re ready for the fallout. Don’t come crying to me when this city chews you up."
+Niki: "Отже, ти вирішив стати на бік Майка, так? Думаєш, зможеш врятувати світ, {PlayerName}? Сподіваюсь, ти готовий до наслідків. Не приходь плакати, коли це місто тебе розірве."
+
+# 3cedcffe
+; @choice "I made the right call. You only care about the money." goto:.Answer2_1
+@choice "Я зробив правильний вибір. Ти думаєш тільки про гроші." goto:.Answer2_1
+
+# 88b0818d
+; @choice "Maybe I should have gone with you. It’s too late now." goto:.Answer2_2
+@choice "Можливо, мені варто було піти з тобою. Але тепер уже пізно." goto:.Answer2_2
+
+# 14e3ddd
+; Niki: "Money makes this city spin, {PlayerName}. And without it, you’re nothing. You’ll see."
+Niki: "Гроші рухають це місто, {PlayerName}. Без них ти  ніхто. Ти ще побачиш."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# a29221dd
+; Niki: "You bet it’s too late. If you’d stuck with me, you’d be rolling in credits by now. But now? You’re on your own."
+Niki: "Ти правий, пізно. Якби ти залишився зі мною, зараз би купався в кредитах. Але тепер? Ти сам по собі."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# 24c154d3
+; Niki: "Still keeping the module to yourself, huh, {PlayerName}? You think you’re smarter than us? Don’t expect me to help you when the corps come for you."
+Niki: "Ти все ще тримаєш модуль при собі, так, {PlayerName}? Думаєш, ти розумніший за нас? Не чекай на мою допомогу, коли корпорації прийдуть за тобою."
+
+# 84364b1f
+; @choice "I don’t need anyone’s help. I know what I’m doing." goto:.Answer3_1
+@choice "Мені не потрібна чиясь допомога. Я знаю, що роблю." goto:.Answer3_1
+
+# 2f7812b6
+; @choice "Maybe I made a mistake. But it’s too late now." goto:.Answer3_2
+@choice "Можливо, я зробив помилку. Але вже пізно." goto:.Answer3_2
+
+# 9a95cddb
+; Niki: "Do you? This city doesn’t forgive mistakes, {PlayerName}. You’ll regret going solo."
+Niki: "Ти впевнений? Це місто не пробачає помилок, {PlayerName}. Ти пошкодуєш, що пішов самостійно."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# 4e63f5d2
+; Niki: "Yeah, it is. And you’ll pay for that mistake soon enough."
+Niki: "Так, пізно. І ти скоро заплатиш за цю помилку."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4

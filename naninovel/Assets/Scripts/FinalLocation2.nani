@@ -1,0 +1,72 @@
+@goto .Choice1 if:FinalChoice==1
+@goto .Choice2 if:FinalChoice==2
+@goto .Choice3 if:FinalChoice==3
+
+# Choice1
+@back Location2
+@char Mike look:right pos:20,-10 appearance:Angry scale:0.5
+Mike: "{PlayerName}, I can’t believe you handed the module to Niki. She’s going to sell the city out, and you know it."
+@choice "I did what I thought was right. Niki convinced me." goto:.Answer1_1
+@choice "It’s done, Mike. No going back." goto:.Answer1_2
+@stop
+
+# Answer1_1
+Mike: "Right? You call handing a weapon to the wrong person 'right'? You’ll regret this, ${PlayerName}."
+@hidePrinter 
+@hide Mike
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Answer1_2
+Mike: "No going back, sure. But don’t expect me to clean up the mess when this blows up in your face."
+@hidePrinter 
+@hide Mike
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+
+# Choice2
+@back Location2
+@char Mike look:right pos:20,-10 appearance:Happy scale:0.5
+Mike: "Good to see you, {PlayerName}. Thanks to the module, we’ve already shut down a few corporate systems. This city’s starting to breathe again."
+@choice "I’m glad I could help. It’s good to know the module is being used for something real." goto:.Answer2_1
+@choice "I hope this works out, Mike. I don’t want to see it backfire." goto:.Answer2_2
+@stop
+
+# Answer2_1
+Mike: "You did more than help, {PlayerName}. You made a difference. Stick with me, and we’ll keep this city alive."
+@hidePrinter 
+@hide Mike
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Answer2_2
+Mike: "No worries, {PlayerName}. We’ve got this under control. But stay sharp, this fight’s far from over."
+@hidePrinter 
+@hide Mike
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Choice3
+@back Location2
+@char Mike look:right pos:20,-10 appearance:Sad scale:0.5
+Mike: "So, you kept the module for yourself, {PlayerName}? You’re playing with fire. Don’t think for a second you’re safe now."
+@choice "I couldn’t trust either of you. This way, I control what happens next." goto:.Answer3_1
+@choice "I’m starting to think I made a mistake, Mike." goto:.Answer3_2
+@stop
+
+# Answer3_1
+@hide Mike
+@char Mike look:right pos:20,-10 appearance:Angry scale:0.5
+Mike: "Control? You’ve got no idea what you’re dealing with. This module is a target, and so are you now."
+@hidePrinter 
+@hide Mike
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Answer3_2
+Mike: "Damn right, you did. It’s too late to fix it now, though. You’re on your own."
+@hidePrinter 
+@hide Mike
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop

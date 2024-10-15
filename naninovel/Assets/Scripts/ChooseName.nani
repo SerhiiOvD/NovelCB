@@ -1,0 +1,5 @@
+
+@back Title wait:false
+@input PlayerName summary:"Please enter your name:"
+@stop
+@goto Scene1

@@ -1,0 +1,28 @@
+; English <en> to Ukrainian <uk> localization document for `Scene4` naninovel script
+
+# 79bed1a5
+; @print "You returns to the Dark Docks, but Mike isn’t there."
+@print "Ви повертаєтесь до Темних Доків, але Майка немає на місці."
+
+# 9e560aff
+; {PlayerName}: "Where’s Mike? Something's off. Should I go back to Niki? Or is Mike keeping something from me?"
+{PlayerName}: "Де Майк? Щось не так. Чи варто мені повертатися до Нікі? Або все ж таки Майк тримає щось у таємниці?"
+
+# da4efe54
+; @choice "I need to talk to Niki. She knows more than she’s letting on." goto:.FinalDes
+@choice "Я мушу поговорити з Нікі. Вона знає більше, ніж каже." goto:.FinalDes
+
+# 3b2ea830
+; @choice "Maybe Mike will come back? But I don’t have time to wait..." goto:.FinalDes
+@choice "Можливо, Майк повернеться? Але у мене немає часу чекати..." goto:.FinalDes
+
+# 41874a84
+; @choice "Maybe I should just keep the module for myself. Use it to my advantage." goto:.FinalDes
+@choice "Може, варто зберегти модуль для себе? І використовувати його на свою користь?" goto:.FinalDes
+
+# 88ce6e
+; @toast "Quest updated: Go to the Niki"
+@toast "Квест оновлено: Йдіть до Нікі"
+
+# 8a24dd55
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map3

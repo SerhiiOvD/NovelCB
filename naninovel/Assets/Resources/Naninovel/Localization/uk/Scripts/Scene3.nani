@@ -1,0 +1,24 @@
+; English <en> to Ukrainian <uk> localization document for `Scene3` naninovel script
+
+# d488f2a8
+; @print "You arrive at the station, hacks the system, and find the Interface Module."
+@print "Ви прибуваєтк на станцію, зламуєте систему і знаходите Модуль Інтерфейсу."
+
+# db997d99
+; @toast "The INTERFACE MODULE is taken"
+@toast "МОДУЛЬ ІНТЕРФЕЙСУ ВЗЯТО"
+
+# 1bcf94c3
+; {PlayerName}: "There it is, the Interface Module. Now I see why this is so important..."
+{PlayerName}: "Ось він, Модуль Інтерфейсу. Тепер я знаю, що це справді щось важливе..."
+
+# 8378914b
+; {PlayerName}: "But who should I trust with it? Niki or Mike?"
+{PlayerName}: "Але кому довірити його? Нікі чи Майку?"
+
+# b70e5298
+; @toast "Quest updated: Go to the Mike"
+@toast "Квест оновлено: Поверніться до Майка"
+
+# 8a24dd55
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map3

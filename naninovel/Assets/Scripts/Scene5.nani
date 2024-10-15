@@ -1,0 +1,52 @@
+; Location 5: Syntex Factory (Niki and Mike)
+@back Location1
+
+@char Niki pos:75,-10 scale:0.5
+@char Mike look:right pos:20,-10 scale:0.5
+@print "You returns to the factory and meets both Niki and Mike."
+@hide Niki
+@char Niki pos:75,-10 appearance:Sad scale:0.5
+Niki: "{PlayerName}, you’re back! And you’ve got the module. You don’t know how much this will change our lives. Hand it over to me, and we’ll start over. We’ll crack their systems, sell the data — we’ll be rich."
+@hide Mike
+@char Mike look:right pos:20,-10 appearance:Angry scale:0.5
+Mike: "Don’t listen to her, {PlayerName}. This module should be used to protect the city. I can help everyone if we use it the right way. It’s not just about the money — it’s a chance to stop the corporations."
+
+@toast "Quest updated: Decide who to give the module to."
+
+@choice "Here, Niki. I hope you know what you’re doing. \[Give it to Niki\]" goto:.A5_3 set:FinalChoice=1
+@choice "Mike, this module is yours. Let’s do the right thing. \[Give it to Mike\]" goto:.B5_3 set:FinalChoice=2
+@choice "This is too valuable to give to anyone. The module stays with me. \[Keep it for yourself\]" goto:.C5_3 set:FinalChoice=3
+@stop
+
+# A5_3
+@hide Niki
+@char Niki pos:75,-10 appearance:Happy scale:0.5
+Niki: "Oh, don’t worry. We’re ahead of everyone now. See you at the top."
+@hide Mike
+@char Mike look:right pos:20,-10 appearance:Sad scale:0.5
+Mike: "You’ll regret this, {PlayerName}..."
+@hide Niki,Mike
+@hidePrinter 
+
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# B5_3
+@hide Mike
+@char Mike look:right pos:20,-10 appearance:Default scale:0.5
+Mike: "Smart choice. This module will change everything. We’ll build a new city."
+Niki: "Do you really think he’ll save the city? You’re naive, {PlayerName}..."
+@hidePrinter 
+@hide Niki,Mike
+
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# C5_3
+Niki: "Fine, your choice. But don’t expect help from me in the future."
+Mike: "You’re playing a dangerous game, {PlayerName}. This could cost you everything."
+@hidePrinter 
+@hide Niki,Mike
+
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop

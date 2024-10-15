@@ -1,0 +1,59 @@
+; English <en> to Ukrainian <uk> localization document for `Scene5` naninovel script
+
+# 47b4059b
+; @print "You returns to the factory and meets both Niki and Mike."
+@print "Ви повертаєтесь до фабрики, де зустрічає Нікі та Майка."
+
+# d9755f18
+; Niki: "{PlayerName}, you’re back! And you’ve got the module. You don’t know how much this will change our lives. Hand it over to me, and we’ll start over. We’ll crack their systems, sell the data — we’ll be rich."
+Niki: "{PlayerName}, ти повернувся! І ти дістав модуль. Ти не уявляєш, як він змінить наше життя. Віддай його мені, і ми зможемо розпочати все спочатку. Зламати їхні системи, продати дані — ми станемо багатими."
+
+# 382840b8
+; Mike: "Don’t listen to her, {PlayerName}. This module should be used to protect the city. I can help everyone if we use it the right way. It’s not just about the money — it’s a chance to stop the corporations."
+Mike: "Не слухай її, {PlayerName}. Цей модуль має бути використаний для захисту міста. Я можу допомогти всім, якщо ми скористаємося ним правильно. Це не тільки гроші — це шанс зупинити корпорації."
+
+# e3bbadfe
+; @toast "Quest updated: Decide who to give the module to."
+@toast "Квест оновлено: Вирішіть кому віддати модуль"
+
+# b9f72b4f
+; @choice "Here, Niki. I hope you know what you’re doing. \[Give it to Niki\]" goto:.A5_3 set:FinalChoice=1
+@choice "Тримай, Нікі. Сподіваюся, ти знаєш, що робиш." goto:.A5_3 set:FinalChoice=1
+# a7f9b5e5
+; @choice "Mike, this module is yours. Let’s do the right thing. \[Give it to Mike\]" goto:.B5_3 set:FinalChoice=2
+@choice "Майк, цей модуль твій. Робимо все правильно." goto:.B5_3 set:FinalChoice=2
+# 37f08440
+; @choice "This is too valuable to give to anyone. The module stays with me. \[Keep it for yourself\]" goto:.C5_3 set:FinalChoice=3
+@choice "Це надто цінна річ, щоб комусь віддавати. Модуль залишиться у мене." goto:.C5_3 set:FinalChoice=3
+# e4788b43
+; Niki: "Oh, don’t worry. We’re ahead of everyone now. See you at the top."
+Niki: "О, не сумнівайся, ми тепер на крок попереду всіх. Побачимося на вершині."
+
+# ce657d47
+; Mike: "You’ll regret this, {PlayerName}..."
+Mike: "Ти ще пошкодуєш про це, {PlayerName}..."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# d256d932
+; Mike: "Smart choice. This module will change everything. We’ll build a new city."
+Mike: "Розумний вибір. Модуль змінить все. Ми зможемо побудувати нове місто."
+
+# 1a77005c
+; Niki: "Do you really think he’ll save the city? You’re naive, {PlayerName}..."
+Niki: "Ти дійсно думаєш, що він врятує місто? Ти наївний, {PlayerName}..."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+
+# 6c343c01
+; Niki: "Fine, your choice. But don’t expect help from me in the future."
+Niki: "Що ж, як знаєш. Але не чекай допомоги від мене в майбутньому."
+
+# 1be645e4
+; Mike: "You’re playing a dangerous game, {PlayerName}. This could cost you everything."
+Mike: "Ти граєш у небезпечні ігри, {PlayerName}. І це може коштувати тобі всього."
+
+# aab271e1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4

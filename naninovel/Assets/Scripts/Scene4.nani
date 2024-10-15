@@ -1,0 +1,16 @@
+; Location 4: Dark Docks (Monologue)
+@back Location2
+@goto .FinalDes if:Quest==4
+@print "You returns to the Dark Docks, but Mike isn’t there."
+{PlayerName}: "Where’s Mike? Something's off. Should I go back to Niki? Or is Mike keeping something from me?"
+@choice "I need to talk to Niki. She knows more than she’s letting on." goto:.FinalDes
+@choice "Maybe Mike will come back? But I don’t have time to wait..." goto:.FinalDes
+@choice "Maybe I should just keep the module for myself. Use it to my advantage." goto:.FinalDes
+@stop
+
+# FinalDes
+@hidePrinter 
+@set Quest=4
+@toast "Quest updated: Go to the Niki"
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map3
+@stop

@@ -1,0 +1,5 @@
+; English <en> to Ukrainian <uk> localization document for `ChooseName` naninovel script
+
+# d5653646
+; @input PlayerName summary:"Please enter your name:"
+@input PlayerName summary:"Введіть своє ім'я:"

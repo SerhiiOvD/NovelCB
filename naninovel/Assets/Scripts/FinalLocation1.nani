@@ -1,0 +1,74 @@
+@goto .Choice1 if:FinalChoice==1
+@goto .Choice2 if:FinalChoice==2
+@goto .Choice3 if:FinalChoice==3
+
+# Choice1
+@back Location1
+@char Niki pos:75,-10 appearance:Happy scale:0.5
+Niki: "Good to see you back, {PlayerName}. Thanks to you, things are looking up for us. I've already sold some of the data, and the credits are rolling in. We’re going to be untouchable."
+@choice "Glad I could help. I hope it was worth it." goto:.Answer1_1
+@choice "I still don’t trust this. You’re playing a dangerous game, Niki." goto:.Answer1_2
+@stop
+
+# Answer1_1
+@hide Niki
+@char Niki pos:75,-10 appearance:HappyB scale:0.5
+Niki: "Oh, it was. You’ve done a good job. Stick with me, {PlayerName}, and we’ll run this city."
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Answer1_2
+@hide Niki
+@char Niki pos:75,-10 appearance:Sad scale:0.5
+Niki: "Dangerous? Maybe. But the rewards are worth it. Just don’t look back now."
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+
+# Choice2
+@back Location1
+@char Niki pos:75,-10 appearance:Sad scale:0.5
+Niki: "So, you went with Mike, huh? Thought you could save the world, {PlayerName}? I hope you’re ready for the fallout. Don’t come crying to me when this city chews you up."
+@choice "I made the right call. You only care about the money." goto:.Answer2_1
+@choice "Maybe I should have gone with you. It’s too late now." goto:.Answer2_2
+@stop
+
+# Answer2_1
+Niki: "Money makes this city spin, {PlayerName}. And without it, you’re nothing. You’ll see."
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Answer2_2
+Niki: "You bet it’s too late. If you’d stuck with me, you’d be rolling in credits by now. But now? You’re on your own."
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Choice3
+@back Location1
+@char Niki pos:75,-10 appearance:Sad scale:0.5
+Niki: "Still keeping the module to yourself, huh, {PlayerName}? You think you’re smarter than us? Don’t expect me to help you when the corps come for you."
+@choice "I don’t need anyone’s help. I know what I’m doing." goto:.Answer3_1
+@choice "Maybe I made a mistake. But it’s too late now." goto:.Answer3_2
+@stop
+
+# Answer3_1
+Niki: "Do you? This city doesn’t forgive mistakes, {PlayerName}. You’ll regret going solo."
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop
+
+# Answer3_2
+Niki: "Yeah, it is. And you’ll pay for that mistake soon enough."
+@hidePrinter 
+@hide Niki
+@choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map4
+@stop

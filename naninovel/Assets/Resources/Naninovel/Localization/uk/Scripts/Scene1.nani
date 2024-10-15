@@ -1,0 +1,53 @@
+; English <en> to Ukrainian <uk> localization document for `Scene1` naninovel script
+
+# 1f35e5e
+; @print "You approaches Niki at the factory."
+@print "Ви підходите до Нікі на фабриці."
+
+# 17cc1a00
+; Niki: "Hey, {PlayerName}, long time no see. I've got something for you, something that could change our lives. Have you heard of the Interface Module? It’s the key to corporate security systems. Whoever gets it can crack any database. And I have a feeling that Mike knows where to find it."
+Niki: "{PlayerName}, давно не бачила. Є справа для тебе, з тих, що можуть змінити наше життя. Чув\Чула про Модуль Інтерфейсу? Це ключ до систем безпеки корпорацій. Той, хто отримає його, зможе зламати будь-яку базу даних. І у мене є підозра, що Майк знає, де його знайти."
+
+# 8dc6ba5a
+; @choice "What’s this module? Where did it come from, and why didn’t Mike tell me?"
+@choice "Що за модуль? Звідки він взявся і чому Майк не сказав мені?"
+
+# b385e129
+; Niki: "Looks like Mike found a lead on an old service station. That module is rare and dangerous. I’m sure it's there. Mike doesn’t like to share info until he knows he can trust you." 
+Niki: "Схоже, Майк знайшов вихід на стару станцію техобслуговування. Цей модуль — річ рідкісна і небезпечна. Я впевнена, що він там. Майк не дуже любить ділитися інформацією, поки не переконається, що ти надійний."
+
+# 5d0c886
+; @choice "Are you sure? Could it just be another one of his tall tales?"
+@choice "Ти впевнена? Може, це чергова вигадка?"
+
+# 7f16ea8a
+; Niki: "Don’t underestimate Mike. He knows where to look for things. If he’s found something, it’s no small matter."
+Niki: "Не варто недооцінювати Майка. Він знає, де що шукати. Якщо він щось знайшов, то це точно не дрібниця."
+
+# 36b95fd4
+; @choice "Alright. I’ll talk to Mike."
+@choice "Добре. Я поговорю з Майком."
+
+# 179e1a7f
+; Niki: "Good. Don’t waste any time. Head to the Dark Docks. He’ll be there. And be careful, {PlayerName}, this could be more dangerous than it seems."
+Niki: "Ось і правильно. Не витрачай часу, йди в Темні Доки. Він буде там. І обережно, {PlayerName}, це може бути небезпечніше, ніж здається."
+
+# 7f3e57e9
+; @toast "Quest: Go to Mike lab"
+@toast "Квест: Йдіть до Майка."
+
+# 681dccd1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map1
+
+# e3df6bdf
+; @toast "Go to Mike lab"
+
+# 681dccd1
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map1
+
+# 5e1edb9f
+; @toast "Find the Interface module"
+@toast "Знайдіть модуль Інтерфейсу"
+
+# 50770f4
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2

@@ -1,0 +1,26 @@
+# Map1
+@back Map
+@choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:Scene1
+@choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:Scene2
+@stop
+
+# Map2
+@back Map
+@choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:Scene1
+@choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:Scene2
+@choice  button:MapButtons/L3ChoiceButton pos:840,-450 handler:ButtonArea goto:Scene3
+@toast "Location Abandoned Maintenance Station is open."
+@stop
+
+# Map3
+@back Map
+@choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:Scene5
+@choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:Scene4
+@stop
+
+; Quest Complited
+# Map4
+@back Map
+@choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:FinalLocation1
+@choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:FinalLocation2
+@stop

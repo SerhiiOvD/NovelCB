@@ -1,0 +1,32 @@
+; English <en> to Ukrainian <uk> localization document for `Map` naninovel script
+
+# 14daee39
+; @choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:Scene1 
+
+# adff59ce
+; @choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:Scene2
+
+# 14daee39
+; @choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:Scene1
+
+# adff59ce
+; @choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:Scene2
+
+# 8bf5e7b
+; @choice button:MapButtons/L3ChoiceButton pos:840,-450 handler:ButtonArea goto:Scene3
+
+# 4a8c8abe
+; @toast "Location Abandoned Maintenance Station is open."
+@toast "Локація Занедбана станція технічного обслуговування відкрита."
+
+# dbfdcf72
+; @choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:Scene5 
+
+# d0bb5228
+; @choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:Scene4
+
+# 4c929ba6
+; @choice  button:MapButtons/L1ChoiceButton pos:0,350 handler:ButtonArea goto:FinalLocation1
+
+# 62551e66
+; @choice  button:MapButtons/L2ChoiceButton pos:-120,-450 handler:ButtonArea goto:FinalLocation2

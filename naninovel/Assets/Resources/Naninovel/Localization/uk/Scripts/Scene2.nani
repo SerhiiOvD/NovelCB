@@ -1,0 +1,101 @@
+; English <en> to Ukrainian <uk> localization document for `Scene2` naninovel script
+
+# f822976b
+; @print "You meet Mike at the Dark Docks to discuss the Interface Module."
+@print "Ви приходите до Майка в Темні Доки для обговорення Модуля Інтерфейсу."
+
+# 1a3dc52a
+; Mike: "So, you showed up. Niki said you'd want the module. I can give you the access codes, but first, you’ve got to prove you're up to the task. How do you feel about a little challenge?"
+Mike: "Ти все-таки прийшов. Нікі сказала, що ти захочеш отримати модуль. Я можу дати тобі коди доступу, але спочатку покажи, що вартий цього. Як ти дивишся на невеликий виклик?"
+
+# f5228496
+; @choice "Alright, Mike. What’s the challenge?" goto:.A2_1
+@choice "Давай, Майк. Що ти задумав?"
+
+# 62ac87d9
+; @choice "More of your games? Why don’t you just hand over the codes?" goto:.B2_1
+@choice "Знову твої ігри? Може, просто віддаси коди?"
+
+# 313e17ec
+; @choice "This is a waste of time. Just give me what I need." goto:.C2_1
+@choice  "Це дурна трата часу. Просто дай мені те, що потрібно."
+
+# bfd2facf
+; Mike: "You’ll need to hack one of the old security system servers. Show me you can handle it, and the codes are yours."
+Mike: "Треба зламати один із старих серверів системи безпеки. Покажеш, що можеш це зробити — коди твої."
+
+# 80c238e8
+; Mike: "Ha! You know me. Nothing comes for free. First, prove you can handle this."
+Mike: "Ха! Ти знаєш мене. Нічого не дається безкоштовно. Спочатку доведи, що можеш з цим впоратися."
+
+# a7c2a7ad
+; Mike: "If you’re not ready for a small challenge, then you’re not ready for the module. Either play by the rules, or walk away."
+Mike: "Якщо не готовий на невелике випробування, то не готовий і до модуля. Вибирай, або грай за правилами, або йди."
+
+# b9501618
+; @choice "Okey, I'm ready."
+@choice "Гаразд, я готовий"
+
+# 591d02fc
+; @choice "Let's do it"
+@choice "Ну давай вже, я це зроблю."
+
+# 540015e8
+; @choice "I did it"
+@choice "Окей ,я це зробив"
+
+# e571bb57
+; Mike: "Well, you pulled it off. Here are your codes. But there’s one problem — the system at the station might be protected. Niki has a cracking device. Without it, you won’t be able to get in."
+Mike: "Ну що ж, ти впорався. Ось твої коди. Але є одна проблема: система на станції може бути захищена. Нікі має пристрій для зламу. Без нього тобі не потрапити туди."
+
+# 86622a1f
+; @choice "Thanks, Mike. I’ll handle it." goto:.A2_2
+@choice "Дякую, Майк. Я впораюся." goto:.A2_2
+
+# 233f1e1b
+; @choice "Are you telling me everything? This seems a bit too easy." goto:.B2_2
+@choice "Ти точно все розповів? Чому це виглядає занадто просто?" goto:.B2_2
+
+# c9788d39
+; @choice "Of course, it’s never simple with you." goto:.C2_2
+@choice  "Ну звісно, завжди все непросто з тобою." goto:.C2_2
+
+# bcee0e3d
+; @toast "Quest updated: Find the Interface Module"
+@toast "Квест оновлено: Знайти модуль Інтерфейсу"
+
+# 7e85e151
+; Mike: "I hope so. Take care of yourself."
+Mike: "Сподіваюся. Бережи себе."
+
+# 50770f4
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+
+# bcee0e3d
+; @toast "Quest updated: Find the Interface Module"
+@toast "Квест оновлено: Знайти модуль Інтерфейсу"
+
+# b6534fc
+; Mike: "You don’t need to know every detail. Just trust me and do your part."
+Mike: "Тобі не обов’язково знати всі деталі. Просто довіряй мені і роби свою справу."
+
+# 50770f4
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+
+# 71f7380
+; @toast "Quest updated: Find the Interface Module "
+@toast "Квест оновлено: Знайти модуль Інтерфейсу"
+
+# c3a52da6
+; Mike: "That’s the nature of our work, {PlayerName}. This city doesn’t forgive easy decisions."
+Mike: "Така вже наша робота, {PlayerName}. Це місто не прощає легких рішень."
+
+# 50770f4
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
+
+# 68d9e247
+; @toast "Find the Interface Module"
+@toast "Знайдіть модуль Інтерфейсу"
+
+# 50770f4
+; @choice  button:MapButtons/GlobalMap pos:850,350 handler:ButtonArea goto:Map.Map2
