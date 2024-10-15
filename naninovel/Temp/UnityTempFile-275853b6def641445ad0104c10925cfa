@@ -1,0 +1,911 @@
+/target:library
+/out:Temp/Elringus.Naninovel.Runtime.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Elringus.Naninovel.Runtime.dll.ref
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+/reference:Assets/NaninovelData/Naninovel/Plugins/Naninovel.Common.dll
+/reference:Assets/NaninovelData/Naninovel/ThirdParty/NCalc/Naninovel.NCalc.dll
+/reference:Assets/NaninovelData/Naninovel/ThirdParty/NLayer/NLayer.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_PHYSICS
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:INCLUDE_DYNAMIC_GI
+/define:MINIGAME_-_MEMORY_ASSET_STORE_RELEASE
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ARCH_64
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_SUPPORTS_MONO
+/define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+/define:PUBLISHING_TOOLS_ASSET_STORE_RELEASE
+/define:RENDER_SOFTWARE_CURSOR
+/define:SCENE_TEMPLATE_MODULE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_15
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:USE_SEARCH_ENGINE_API
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorManagerConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorMetadataMap.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorPose.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ActorState.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\BackgroundManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\BackgroundMatcher.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\BackgroundMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\BackgroundState.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\BackgroundsConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\DicedSpriteBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\GenericBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\GenericBackgroundBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\IBackgroundActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\IBackgroundManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\LayeredBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\LayeredBackgroundBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\SceneBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\SpriteBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Background\VideoBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharacterAvatarChangedArgs.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharacterLipSyncer.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharacterLookDirection.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharacterManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharacterMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharacterState.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\CharactersConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\DicedSpriteCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\GenericCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\GenericCharacterBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\ICharacterActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\ICharacterManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\LayeredCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\LayeredCharacterBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\MessageSoundPlayback.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\NarratorCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\SpriteCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\Character\VideoCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\ChoiceHandlerManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\ChoiceHandlerMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\ChoiceHandlerState.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\ChoiceHandlersConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\ChoiceState.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\IChoiceHandlerActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\IChoiceHandlerManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\ChoiceHandler\UIChoiceHandler.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\CustomMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\DicedSpriteActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\GenericActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\GenericActorBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\GetActorRenderTexture.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\IActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\IActorManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\LayeredActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\LayeredActorBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\LayeredActorLayer.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\LayeredDrawer.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\MonoBehaviourActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\OrthoActorManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\OrthoActorManagerConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\OrthoActorMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\RenderCanvas.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\SpriteActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\ITextPrinterActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\ITextPrinterManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\PrintTextArgs.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\TextPrinterManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\TextPrinterMetadata.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\TextPrinterState.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\TextPrintersConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\TextPrinter\UITextPrinter.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\VideoActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Actor\VideoAppearance.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ActorResourcesAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\DocumentationAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\LocalesPopupAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ParameterContext\ActorContextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ParameterContext\AppearanceContextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ParameterContext\ConstantContextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ParameterContext\ExpressionContextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ParameterContext\ParameterContextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ParameterContext\ResourceContextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ResourcePopupAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Attributes\ScenePositionAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\AudioClipState.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\AudioConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\AudioManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\AudioManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\AudioPlayer.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\AutoVoiceMode.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\IAudioManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\IAudioPlayer.cs
+Assets\NaninovelData\Naninovel\Runtime\Audio\VoiceOverlapPolicy.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\AspectMatchMode.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\AspectMatcher.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraComponentState.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraLookController.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraLookState.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\CameraMatcher.cs
+Assets\NaninovelData\Naninovel\Runtime\Camera\ICameraManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\AnimateActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\ArrangeCharacters.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\HideActors.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\HideAllActors.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\HideAllCharacters.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\ModifyActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\ModifyBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\ModifyCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\ModifyOrthoActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\ShowActors.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Actor\SlideActor.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\AudioCommand.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\PlayBgm.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\PlaySfx.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\PlaySfxFast.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\PlayVoice.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\StopBgm.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\StopSfx.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Audio\StopVoice.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\AutoSave.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\CameraLook.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Choice\AddChoice.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Choice\ClearChoiceHandler.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ClearBacklog.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ExitToTitle.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\FinishSceneTransition.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\HideUI.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\InputCustomVariable.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\LipSync.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\LoadScene.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Lock.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ModifyCamera.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\OpenURL.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\PlayMovie.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\BeginIf.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Else.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\ElseIf.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\EndIf.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Gosub.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Goto.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Return.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Skip.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Stop.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\Wait.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Player\WaitForInput.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\AppendLineBreak.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\AppendText.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\HidePrinter.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\ModifyTextPrinter.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\PrintText.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\PrinterCommand.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\ResetText.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\SetTextStyle.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\ShowPrinter.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Printer\SkipInput.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ProcessInput.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\PurgeRollback.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ResetState.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\SetCustomVariable.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ShowToastUI.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\ShowUI.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Spawn\DestroyAllSpawned.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Spawn\DestroySpawned.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Spawn\Spawn.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\StartSceneTransition.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\UnloadScene.cs
+Assets\NaninovelData\Naninovel\Runtime\Command\Unlock.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\AspectMonitor.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\AsyncOperationCanceledException.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\AsyncOperationDestroyedException.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\AsyncToken.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\CancelOnDestroy.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\Semaphore.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\AsyncUnit.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\CancellationTokenEqualityComparer.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\CompilerServices\AsyncMethodBuilderAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\CompilerServices\AsyncUniTaskMethodBuilder.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\CompilerServices\AsyncUniTaskVoidMethodBuilder.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\CompilerServices\MoveNextRunner.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\IAwaiter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\ArrayPool.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\ArrayPoolUtil.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\ArrayUtil.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\ContinuationQueue.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\Error.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\FuncExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\LazyPromise.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\MinimumQueue.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\PlayerLoopRunner.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\ReusablePromise.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\RuntimeHelpersAbstraction.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\UniTaskSynchronizationContext.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Internal\UnityEqualityComparer.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\PlayerLoopHelper.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\EnumeratorAsyncExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\PlayerLoopTiming.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Bridge.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Delay.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Factory.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Run.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Threading.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.WaitUntil.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.WhenAll.Generated.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.WhenAll.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.WhenAny.Generated.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.WhenAny.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTaskCompletionSource.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTaskExtensions.Shorthand.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTaskExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UniTaskVoid.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\Public\UnityAsyncExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Async\UniTask\UniTaskScheduler.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Attributes\DrawAsEulerAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Attributes\ReadOnlyAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Audio\AudioController.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Audio\AudioTrack.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Collections\AsyncQueue.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Collections\IntRange.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Collections\LiteralMap.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Collections\Named.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Collections\Nullable.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Collections\SerializableMap.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\GDocToTextAssetConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\IConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\IGoogleDriveConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\IRawConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\JpgOrPngToSpriteConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\JpgOrPngToTextureConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\JpgToSpriteConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\Mp3ToAudioClipConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\PngToSpriteConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\PngToTextureConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\TxtToTextAssetConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Converters\WavToAudioClipConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Folder.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\AddressableFolderLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\AddressableResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\AddressableResourceLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\AddressableResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\CachedResourceLocation.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\GoogleDriveFolderLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\GoogleDriveResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\GoogleDriveResourceLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\GoogleDriveResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\IHoldersTracker.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\IResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\IResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\LocalFolderLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\LocalResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\LocalResourceLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\LocalResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProjectFolderLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProjectResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProjectResourceLocator.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProjectResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProjectResources.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProviderListExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ProvisionSource.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\Resource.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ResourceLoaderExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\ResourceRunner.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ResourceProvider\VirtualResourceProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\SaveSlotManager\IOSaveSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\SaveSlotManager\ISaveSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\SaveSlotManager\PlayerPrefsSaveSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\AlphaThreshold.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\DragDrop.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\DragDropHandle.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\LabeledButton.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableButton.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableGrid.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableGridSlot.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableLabeledButton.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableScrollRect.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableSlider.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIComponent.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIControl.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Timer.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\ColorTween.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\EasingFunctions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\EasingType.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\FloatTween.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\ITweenValue.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\QuaternionTween.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\Tweener.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Tween\VectorTween.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ArrayUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\AsyncUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ColorUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ComponentUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\CryptoUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\EventUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\GraphicUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\IOUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\LinqUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\MaskUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\MathUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ObjectUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ParseUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\PathUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ReflectionUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\RegexUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\ResourceUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\SpriteUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\StringUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\SyncContextUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\TextureUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\TransformUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\UIUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\WebGLExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Common\Utilities\WebUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Configuration\Configuration.cs
+Assets\NaninovelData\Naninovel\Runtime\Configuration\ConfigurationProviderExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Configuration\IConfigurationProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Configuration\ProjectConfigurationProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\Console\CommandDatabase.cs
+Assets\NaninovelData\Naninovel\Runtime\Console\ConsoleCommandAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Console\ConsoleGUI.cs
+Assets\NaninovelData\Naninovel\Runtime\Console\InputPreprocessor.cs
+Assets\NaninovelData\Naninovel\Runtime\ConsoleCommands.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\CustomVariable.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\CustomVariableManager.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\CustomVariableManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\CustomVariableTrigger.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\CustomVariableUpdatedArgs.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\CustomVariablesConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\CustomVariable\ICustomVariableManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\Engine.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\EngineConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\EngineVersion.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\IEngineBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\IEngineService.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\ILogger.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\IStatefulService.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\InitializeAtRuntimeAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\RuntimeBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\RuntimeInitializer.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\ServiceInitializationData.cs
+Assets\NaninovelData\Naninovel\Runtime\Engine\UnityLogger.cs
+Assets\NaninovelData\Naninovel\Runtime\Expression\ExpressionEvaluator.cs
+Assets\NaninovelData\Naninovel\Runtime\Expression\ExpressionFunctions.cs
+Assets\NaninovelData\Naninovel\Runtime\Expression\ExpressionFunctionsAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\Animate.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\Blur.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\DepthOfField.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\DigitalGlitch.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\Rain.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\ShakeBackground.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\ShakeCamera.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\ShakeCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\ShakePrinter.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\ShakeTransform.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\Snow.cs
+Assets\NaninovelData\Naninovel\Runtime\FX\SunShafts.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\IInputManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\IInputSampler.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\IInputTrigger.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputAxisTrigger.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputAxisTriggerMode.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputBinding.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputSampler.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputSwipeDirection.cs
+Assets\NaninovelData\Naninovel\Runtime\Input\InputSwipeTrigger.cs
+Assets\NaninovelData\Naninovel\Runtime\Localization\ILocalizationManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Localization\LanguageTags.cs
+Assets\NaninovelData\Naninovel\Runtime\Localization\LocalizationConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Localization\LocalizationManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Localization\LocalizationManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\ITextManager.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\ManagedTextAttribute.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\ManagedTextConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\ManagedTextProvider.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\ManagedTextRecord.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\ManagedTextUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\ManagedText\TextManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Movie\IMoviePlayer.cs
+Assets\NaninovelData\Naninovel\Runtime\Movie\MoviePlayer.cs
+Assets\NaninovelData\Naninovel\Runtime\Movie\MoviesConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\GDocToScriptAssetConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\IResourceProviderManager.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\LocalizableResourceLoader.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\NaniToScriptAssetConverter.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\ResourceLoaderConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\ResourcePolicy.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\ResourceProviderConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\ResourceProvider\ResourceProviderManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Command.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\IScriptManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Line\CommandScriptLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Line\CommentScriptLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Line\EmptyScriptLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Line\GenericTextScriptLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Line\LabelScriptLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Line\ScriptLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\BooleanListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\BooleanParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\CommandParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\DecimalListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\DecimalParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\DynamicValue.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\ICommandParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\IntegerListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\IntegerParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedBooleanListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedBooleanParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedDecimalListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedDecimalParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedIntegerListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedIntegerParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedStringListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\NamedStringParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\ParameterList.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\StringListParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parameter\StringParameter.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\CommandLineParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\CommandParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\CommentLineParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\GenericTextLineParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\IScriptParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\LabelLineParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ParseErrorHandler.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ParseLine.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ScriptLineParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ScriptParseError.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ScriptParseErrorLogger.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ScriptParseExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Parser\ScriptParser.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\PlayScript.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\Script.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\ScriptManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\ScriptManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Script\ScriptsConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\IScriptPlayer.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\PlaybackSpot.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\PlayedScriptRegister.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\PlayerSkipMode.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\ScriptPlayer.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\ScriptPlayerConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\ScriptPlayerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\ScriptPlayer\ScriptPlaylist.cs
+Assets\NaninovelData\Naninovel\Runtime\Spawn\ISpawnManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Spawn\SpawnConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\Spawn\SpawnManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Spawn\SpawnManagerExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\Spawn\SpawnedObject.cs
+Assets\NaninovelData\Naninovel\Runtime\Spawn\SpawnedObjectState.cs
+Assets\NaninovelData\Naninovel\Runtime\State\GameSaveLoadArgs.cs
+Assets\NaninovelData\Naninovel\Runtime\State\GameStateMap.cs
+Assets\NaninovelData\Naninovel\Runtime\State\GlobalStateMap.cs
+Assets\NaninovelData\Naninovel\Runtime\State\IOGameStateSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\IOGlobalStateSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\IOSettingsSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\IStateManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\PlayerPrefsGameStateSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\PlayerPrefsGlobalStateSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\PlayerPrefsSettingsSlotManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\SettingsStateMap.cs
+Assets\NaninovelData\Naninovel\Runtime\State\StateConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\State\StateManager.cs
+Assets\NaninovelData\Naninovel\Runtime\State\StateMap.cs
+Assets\NaninovelData\Naninovel\Runtime\State\StateRollbackStack.cs
+Assets\NaninovelData\Naninovel\Runtime\State\UniversalSerializationHandlers.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\BlurFilter.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\Transition.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionType.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionUtils.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionalMatcher.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionalMaterial.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionalRenderer.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionalSpriteBuilder.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionalSpriteRenderer.cs
+Assets\NaninovelData\Naninovel\Runtime\Transition\TransitionalTextureRenderer.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Backlog\BacklogCloseButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Backlog\BacklogMessage.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Backlog\BacklogMessageState.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Backlog\BacklogPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Backlog\IBacklogUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\CGGalleryGrid.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\CGGalleryGridSlot.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\CGGalleryPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\CGGalleryReturnButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\CGSlotData.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\CGViewerPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CGGallery\ICGGalleryUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ChoiceHandler\ChoiceHandlerButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ChoiceHandler\ChoiceHandlerPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ClickThroughPanel\ClickThroughPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ClickThroughPanel\IClickThroughPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Confirmation\ConfirmationPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Confirmation\IConfirmationUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ContinueInput\ContinueInputUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ContinueInput\IContinueInputUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelAutoPlayButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelHideButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelLoadButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelLogButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelQuickLoadButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelQuickSaveButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelSaveButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelSettingsButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelSkipButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelTipsButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ControlPanel\ControlPanelTitleButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CustomUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\CustomVariableGUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\DebugInfoGUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\EngineInitializationUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ExternalScripts\ExternalScriptsBrowserPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ExternalScripts\ExternalScriptsBrowserReturnButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ExternalScripts\IExternalScriptsUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\FontChanger.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsAutoDelaySlider.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsBgmVolumeSlider.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsFontDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsFontSizeDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsGraphicsDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsLanguageDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsMasterVolumeSlider.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsMenu.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsMessageSpeedSlider.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsPreviewPrinter.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsResolutionDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsReturnButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsScreenModeDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsSfxVolumeSlider.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsSkipModeDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsVoiceLocaleDropdown.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\GameSettingsVoiceVolumeSlider.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\GameSettings\ISettingsUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\IManagedUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\IUIManager.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ImageCrossfader.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\InteractionBlocker.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Loading\ILoadingUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Loading\LoadLoggerScrollRect.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Loading\LoadingIcon.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Loading\LoadingPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ManagedUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ManagedUIExtensions.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Movie\IMovieUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Movie\MovieUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Pause\IPauseUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Pause\PauseUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ReactToAspectRatio.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Rollback\IRollbackUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Rollback\RollbackUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SaveLoad\GameStateSlot.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SaveLoad\GameStateSlotsGrid.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SaveLoad\ISaveLoadUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SaveLoad\SaveLoadMenu.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SaveLoad\SaveLoadMenuReturnButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SaveLoad\SaveLoadUIPresentationMode.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SceneTransition\ISceneTransitionUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\SceneTransition\SceneTransitionUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ScriptNavigator\NavigatorPlayButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ScriptNavigator\NavigatorSyncButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\ScriptNavigator\ScriptNavigatorPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\ArabicSupport.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\AuthorImage.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\AuthorNamePanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\AuthorNameTMProPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\AuthorNameUIPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\ChatMessage.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\ChatMessageState.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\ChatPrinterPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\IInputIndicator.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\IRevealableText.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\NaninovelTMProText.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\PingPongInputIndicator.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\RevealableCharacter.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\RevealableLine.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\RevealableTMProText.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\RevealableTextPrinterPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\RevealableUIText.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\TextRevealBehaviour.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\TextRevealState.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\TypingIndicator.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\TextPrinter\UITextPrinterPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Tips\ITipsUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Tips\TipsListItem.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Tips\TipsPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Tips\TipsReturnButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\EngineVersionText.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\ITitleUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleCGGalleryButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleContinueButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleExitButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleExternalScriptsButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleMenu.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleNewGameButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleSettingsButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Title\TitleTipsButton.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Toast\IToastUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Toast\ToastAppearance.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\Toast\ToastUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\UIConfiguration.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\UIManager.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\VariableInput\IVariableInputUI.cs
+Assets\NaninovelData\Naninovel\Runtime\UI\VariableInput\VariableInputPanel.cs
+Assets\NaninovelData\Naninovel\Runtime\Unlockable\IUnlockableManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Unlockable\UnlockableItemUpdatedArgs.cs
+Assets\NaninovelData\Naninovel\Runtime\Unlockable\UnlockableManager.cs
+Assets\NaninovelData\Naninovel\Runtime\Unlockable\UnlockableTrigger.cs
+Assets\NaninovelData\Naninovel\Runtime\Unlockable\UnlockablesConfiguration.cs

@@ -1,0 +1,982 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22631.4317; Version 2009; 64bit' Language: 'uk' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UnityProjects/naninovel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54413
+Successfully changed project path to: C:/UnityProjects/naninovel
+C:/UnityProjects/naninovel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/naninovel/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   
+    VRAM:     3937 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001636 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Generating Metadata
+Mono: successfully reloaded assembly
+- Completed reload, in  2.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2315ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (2128ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (848ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3501.
+Total: 4.452600 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.143000 ms MarkObjects: 3.778800 ms  DeleteObjects: 0.124300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/NovelScripts/MapLocations/Location1.nani
+  artifactKey: Guid(002ac2d6ac81a1e46b2d1e5d931f7be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/MapLocations/Location1.nani using Guid(002ac2d6ac81a1e46b2d1e5d931f7be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc80b04ba9e1b70970ba979ee20eee63') in 0.028824 seconds 
+  Import took 0.034101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.776080 seconds.
+  path: Assets/NovelScripts/MapLocations/Location2.nani
+  artifactKey: Guid(a6d04241085e2034dadd2f0998111635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/MapLocations/Location2.nani using Guid(a6d04241085e2034dadd2f0998111635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc0017349c95fe3638e60862739ca63') in 0.008859 seconds 
+  Import took 0.014291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.972418 seconds.
+  path: Assets/NovelScripts/MapLocations/Location3.nani
+  artifactKey: Guid(3ea6d07bd3b2ed84c84d4b3ca425d7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/MapLocations/Location3.nani using Guid(3ea6d07bd3b2ed84c84d4b3ca425d7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba3476f911e7b4ae68e6be962cb3048') in 0.015685 seconds 
+  Import took 0.022213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.928065 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50439b6f825a81f0195481df3d6cf6a') in 0.052840 seconds 
+  Import took 0.058111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.270237 seconds.
+  path: Assets/Resources/MapButtons/L2ChoiceButton.prefab
+  artifactKey: Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L2ChoiceButton.prefab using Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c64198ed44efa9cce54d0d2a81e66db') in 0.013283 seconds 
+  Import took 0.019186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.347179 seconds.
+  path: Assets/Resources/MapButtons/L3ChoiceButton.prefab
+  artifactKey: Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L3ChoiceButton.prefab using Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a0264b4c9053482926635b3dcfa039') in 0.012722 seconds 
+  Import took 0.018176 seconds .
+
+14.10.2024 19:43:16|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 176.794959 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deea21c382f2cfd233ad9c5d6abbfc6a') in 0.007492 seconds 
+  Import took 0.012980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.281938 seconds.
+  path: Assets/Resources/MapButtons/L2ChoiceButton.prefab
+  artifactKey: Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L2ChoiceButton.prefab using Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39691d9c6ae11cc7c3e876a95da1bfcb') in 0.007607 seconds 
+  Import took 0.013456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.604053 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f8b9afb88f62b691417c0cb97a9e83') in 0.007263 seconds 
+  Import took 0.013461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.170278 seconds.
+  path: Assets/Resources/MapButtons/L2ChoiceButton.prefab
+  artifactKey: Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L2ChoiceButton.prefab using Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2f6655bb24c3e54568396913c28d05') in 0.007266 seconds 
+  Import took 0.013231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002885 seconds.
+  path: Assets/Resources/MapButtons/L2ChoiceButton.prefab
+  artifactKey: Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L2ChoiceButton.prefab using Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2f6655bb24c3e54568396913c28d05') in 0.007155 seconds 
+  Import took 0.012380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.369153 seconds.
+  path: Assets/Resources/MapButtons/L3ChoiceButton.prefab
+  artifactKey: Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L3ChoiceButton.prefab using Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaa84a2502f60773a9a632130d11aec') in 0.007386 seconds 
+  Import took 0.012800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.590377 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1c9369426dc4b012c26e9f58484e98') in 0.048225 seconds 
+  Import took 0.053983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.924403 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton 1.prefab
+  artifactKey: Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton 1.prefab using Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38ff3002eb62b0ea6ed39451d4f6264') in 0.031561 seconds 
+  Import took 0.036841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007275 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton 1.prefab
+  artifactKey: Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton 1.prefab using Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38ff3002eb62b0ea6ed39451d4f6264') in 0.021076 seconds 
+  Import took 0.026569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.845329 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0da32fb9f92da51224ab0af3a81532') in 0.024160 seconds 
+  Import took 0.029972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019019 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0da32fb9f92da51224ab0af3a81532') in 0.023851 seconds 
+  Import took 0.029343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.658690 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55de114ce5e6cca2188c70c354a0710b') in 0.023604 seconds 
+  Import took 0.029313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023401 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55de114ce5e6cca2188c70c354a0710b') in 0.022271 seconds 
+  Import took 0.027837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.087585 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton 1.prefab
+  artifactKey: Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton 1.prefab using Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbde4b3dbe8e24bed310848856654c9f') in 0.022116 seconds 
+  Import took 0.027687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010491 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton 1.prefab
+  artifactKey: Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton 1.prefab using Guid(d089cf243c7c62348bcdcd3bb4bbb3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbde4b3dbe8e24bed310848856654c9f') in 0.021737 seconds 
+  Import took 0.026760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.238979 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d83170b27ec4fbcdfd1eabc72afdc8c') in 0.023962 seconds 
+  Import took 0.029869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021419 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d83170b27ec4fbcdfd1eabc72afdc8c') in 0.021142 seconds 
+  Import took 0.026597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.283653 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247f97a2c91f52bf00020b70f3b42fe') in 0.024471 seconds 
+  Import took 0.030017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022210 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247f97a2c91f52bf00020b70f3b42fe') in 0.021683 seconds 
+  Import took 0.026677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.054285 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395082d29b61cf9b839e48bee1a9844') in 0.023976 seconds 
+  Import took 0.029636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016798 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395082d29b61cf9b839e48bee1a9844') in 0.022347 seconds 
+  Import took 0.027643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.771086 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810efe8cbdca546d5ca3a7f9b79509f1') in 0.021559 seconds 
+  Import took 0.026904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.018028 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5dba6b3962076f4e2edc580de44a5d') in 0.021528 seconds 
+  Import took 0.027080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.971559 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f38d4e093b0cd586a46e06ad8b4f8c') in 0.022079 seconds 
+  Import took 0.027663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.024324 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eba4c1564a7b76ed580806f5a3810e') in 0.021727 seconds 
+  Import took 0.027512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.157129 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fa16cf112b496435091897da6dbe4e') in 0.022547 seconds 
+  Import took 0.028198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.214033 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ef8e77930996002ae5d3fc45043df7') in 0.022247 seconds 
+  Import took 0.028020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.468446 seconds.
+  path: Assets/Resources/MapButtons/L1ChoiceButton.prefab
+  artifactKey: Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L1ChoiceButton.prefab using Guid(f1189bf71bea145408fba47f2fcf29f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2721370f6ddb30f1c83de41180f65da7') in 0.023726 seconds 
+  Import took 0.029139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.475696 seconds.
+  path: Assets/Resources/MapButtons/L2ChoiceButton.prefab
+  artifactKey: Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L2ChoiceButton.prefab using Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f110d732ddc3ed9c56287e4bcce57dd') in 0.022205 seconds 
+  Import took 0.027952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.050066 seconds.
+  path: Assets/Resources/MapButtons/L3ChoiceButton.prefab
+  artifactKey: Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L3ChoiceButton.prefab using Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e47de6aeba6e3bfcb2ada3a7982d57') in 0.022544 seconds 
+  Import took 0.028957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.180392 seconds.
+  path: Assets/Resources/MapButtons/L2ChoiceButton.prefab
+  artifactKey: Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L2ChoiceButton.prefab using Guid(c0caa8f97f53e964daa0310b8b3fe8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704b765012eae27ed0c1aed84dcac638') in 0.024187 seconds 
+  Import took 0.030022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.540811 seconds.
+  path: Assets/Resources/MapButtons/L3ChoiceButton.prefab
+  artifactKey: Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L3ChoiceButton.prefab using Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171d9a1810e870def5b9600fe7b8f699') in 0.023075 seconds 
+  Import took 0.028321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.310702 seconds.
+  path: Assets/Resources/MapButtons/L3ChoiceButton.prefab
+  artifactKey: Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapButtons/L3ChoiceButton.prefab using Guid(7547872b13d260248a1ad84aa13c4321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02492dcc0e98abcf6ad788ae725103a4') in 0.021962 seconds 
+  Import took 0.027446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.375057 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3daf1ac3e7e2f69fbdecbd10c48a3bb') in 0.010524 seconds 
+  Import took 0.016025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.725401 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74863f1843d03c505f8d19b63eeb63b') in 0.003938 seconds 
+  Import took 0.009255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003770 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74863f1843d03c505f8d19b63eeb63b') in 0.004196 seconds 
+  Import took 0.009385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.521794 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08223fdcf498abb54eee7e025d9023a1') in 0.004097 seconds 
+  Import took 0.009461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003303 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08223fdcf498abb54eee7e025d9023a1') in 0.003926 seconds 
+  Import took 0.009087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.617828 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce0dc39e9f9809d295cc6f544d84b67') in 0.004888 seconds 
+  Import took 0.009921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004883 seconds.
+  path: Assets/NovelScripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce0dc39e9f9809d295cc6f544d84b67') in 0.004316 seconds 
+  Import took 0.009525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.507243 seconds.
+  path: Assets/NovelScripts/FinalLocation1.nani
+  artifactKey: Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/FinalLocation1.nani using Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2777a8bd7b7c8ea284dd87d3c7b32325') in 0.012174 seconds 
+  Import took 0.017412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006151 seconds.
+  path: Assets/NovelScripts/FinalLocation1.nani
+  artifactKey: Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/FinalLocation1.nani using Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2777a8bd7b7c8ea284dd87d3c7b32325') in 0.005607 seconds 
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.618287 seconds.
+  path: Assets/NovelScripts/FinalLocation2.nani
+  artifactKey: Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/FinalLocation2.nani using Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189f7675a9fa0d9e9616e3178bc50873') in 0.010764 seconds 
+  Import took 0.016295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006629 seconds.
+  path: Assets/NovelScripts/FinalLocation2.nani
+  artifactKey: Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/FinalLocation2.nani using Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189f7675a9fa0d9e9616e3178bc50873') in 0.005882 seconds 
+  Import took 0.010850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.759338 seconds.
+  path: Assets/NovelScripts/Scene1.nani
+  artifactKey: Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene1.nani using Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1265bcf830bfced9a69e4765400a5e9e') in 0.010734 seconds 
+  Import took 0.016722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.003236 seconds.
+  path: Assets/NovelScripts/Scene2.nani
+  artifactKey: Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene2.nani using Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b1a753fc32e36c84e6cb8c017e28f') in 0.010480 seconds 
+  Import took 0.016375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003032 seconds.
+  path: Assets/NovelScripts/Scene2.nani
+  artifactKey: Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene2.nani using Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b1a753fc32e36c84e6cb8c017e28f') in 0.005422 seconds 
+  Import took 0.010314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.513030 seconds.
+  path: Assets/NovelScripts/Scene3.nani
+  artifactKey: Guid(f60020a3d80233242887a9c36e94c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene3.nani using Guid(f60020a3d80233242887a9c36e94c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb9ea62067da5d429d9aba55d68f4fa') in 0.009736 seconds 
+  Import took 0.014960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.268124 seconds.
+  path: Assets/NovelScripts/Scene4.nani
+  artifactKey: Guid(5f470b9d72b1cd34a97dc10959a3e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene4.nani using Guid(5f470b9d72b1cd34a97dc10959a3e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130a799694e54250a94ec162fe9d4dc5') in 0.009724 seconds 
+  Import took 0.015263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.786279 seconds.
+  path: Assets/NovelScripts/Scene5.nani
+  artifactKey: Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene5.nani using Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584564dfa166df9a85b03dbeca81b3ab') in 0.011850 seconds 
+  Import took 0.019006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004601 seconds.
+  path: Assets/NovelScripts/Scene5.nani
+  artifactKey: Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene5.nani using Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584564dfa166df9a85b03dbeca81b3ab') in 0.007474 seconds 
+  Import took 0.015023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.113872 seconds.
+  path: Assets/NovelScripts/FinalLocation1.nani
+  artifactKey: Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/FinalLocation1.nani using Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8231c7f968ca2576e63bd8df1c9e77') in 0.005997 seconds 
+  Import took 0.011804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.967151 seconds.
+  path: Assets/NovelScripts/FinalLocation2.nani
+  artifactKey: Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/FinalLocation2.nani using Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4749a8e2d60daf56f9592ad79fc65fe') in 0.005632 seconds 
+  Import took 0.011178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.045022 seconds.
+  path: Assets/NovelScripts/Scene1.nani
+  artifactKey: Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene1.nani using Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6a19ef65efa8bc9df6a77544521e11') in 0.005106 seconds 
+  Import took 0.010275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000929 seconds.
+  path: Assets/NovelScripts/Scene1.nani
+  artifactKey: Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene1.nani using Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6a19ef65efa8bc9df6a77544521e11') in 0.004426 seconds 
+  Import took 0.009467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101899 seconds.
+  path: Assets/NovelScripts/Scene1.nani
+  artifactKey: Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene1.nani using Guid(d00611655dcb7c64a8c4280dea01685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90735058d6065f810ae5b25f93b3feab') in 0.004527 seconds 
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.896460 seconds.
+  path: Assets/NovelScripts/Scene2.nani
+  artifactKey: Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene2.nani using Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4e86d0c418498facf0581157f25073') in 0.005250 seconds 
+  Import took 0.010363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.381478 seconds.
+  path: Assets/NovelScripts/Scene3.nani
+  artifactKey: Guid(f60020a3d80233242887a9c36e94c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene3.nani using Guid(f60020a3d80233242887a9c36e94c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200d4c4b094c747b2875d04a4db05195') in 0.003905 seconds 
+  Import took 0.009246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.848844 seconds.
+  path: Assets/NovelScripts/Scene4.nani
+  artifactKey: Guid(5f470b9d72b1cd34a97dc10959a3e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene4.nani using Guid(5f470b9d72b1cd34a97dc10959a3e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c760c4263db20305108736d39d8f54b') in 0.003597 seconds 
+  Import took 0.009821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.653347 seconds.
+  path: Assets/NovelScripts/Scene5.nani
+  artifactKey: Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NovelScripts/Scene5.nani using Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4d05a595675a42ba33ed1bae927c5e') in 0.005935 seconds 
+  Import took 0.011730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.884289 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/FinalLocation1.nani
+  artifactKey: Guid(b41ffaa168ce9c94e8f3c534a057f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/FinalLocation1.nani using Guid(b41ffaa168ce9c94e8f3c534a057f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b4488c34364446f06c3ecbef073380') in 0.005269 seconds 
+  Import took 0.011043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Scene3.nani
+  artifactKey: Guid(94398aa0ef6d67c408d673d6bcfb928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Scene3.nani using Guid(94398aa0ef6d67c408d673d6bcfb928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890375ab1625a006b2e80a4558605700') in 0.003448 seconds 
+  Import took 0.008925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/FinalLocation2.nani
+  artifactKey: Guid(0b339bf1161dd154f8354f31ad1beaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/FinalLocation2.nani using Guid(0b339bf1161dd154f8354f31ad1beaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcc76f4288b2e8efb0e0094939fe9ad') in 0.004475 seconds 
+  Import took 0.009897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066583 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Map.nani
+  artifactKey: Guid(873172adb66113149aad33c6ba8b3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Map.nani using Guid(873172adb66113149aad33c6ba8b3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242de9428416709e47d7b6b7278d4af9') in 0.003563 seconds 
+  Import took 0.009521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Scene2.nani
+  artifactKey: Guid(4f06c7521c257f6439232ebbf9218432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Scene2.nani using Guid(4f06c7521c257f6439232ebbf9218432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f51f6bf47f743c5720040cd30e38600') in 0.005628 seconds 
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Scene4.nani
+  artifactKey: Guid(4823b41629de6494e9a5a069057b73af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Scene4.nani using Guid(4823b41629de6494e9a5a069057b73af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cbd0902d1c9bb3ae287f691be4318c') in 0.003913 seconds 
+  Import took 0.009592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071227 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Scene1.nani
+  artifactKey: Guid(22c3b9f8a60990048a0b4449db06b67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Scene1.nani using Guid(22c3b9f8a60990048a0b4449db06b67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e9cb1e65a8af641857dfddea2b25ec') in 0.004248 seconds 
+  Import took 0.009410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.937661 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Map.nani
+  artifactKey: Guid(873172adb66113149aad33c6ba8b3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Map.nani using Guid(873172adb66113149aad33c6ba8b3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61537f440357826ebd31da37071f048') in 0.003810 seconds 
+  Import took 0.009386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001070 seconds.
+  path: Assets/Resources/Naninovel/Localization/uk/Scripts/Map.nani
+  artifactKey: Guid(873172adb66113149aad33c6ba8b3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Naninovel/Localization/uk/Scripts/Map.nani using Guid(873172adb66113149aad33c6ba8b3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61537f440357826ebd31da37071f048') in 0.003617 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.569684 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(c0d86db2427ef8f4f9e1dfdfe0917509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(c0d86db2427ef8f4f9e1dfdfe0917509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ea7d7612ac0ec1cae39904c8c321ad') in 0.008672 seconds 
+  Import took 0.013704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.945933 seconds.
+  path: Assets/Cyberpunk Backgrounds/Cyberpunk Visual Novel Backgrounds - by Flame Fox Games
+  artifactKey: Guid(0aa4a60c0607fa44fa31e0fcdb7c0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Backgrounds/Cyberpunk Visual Novel Backgrounds - by Flame Fox Games using Guid(0aa4a60c0607fa44fa31e0fcdb7c0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6561cc07fde4ea72df09700c0624084e') in 0.008572 seconds 
+  Import took 0.013880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.403531 seconds.
+  path: Assets/Cyberpunk Backgrounds/Backgrounds
+  artifactKey: Guid(0aa4a60c0607fa44fa31e0fcdb7c0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Backgrounds/Backgrounds using Guid(0aa4a60c0607fa44fa31e0fcdb7c0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3296bcccc21bab05e52d8ab2179bd43') in 0.008809 seconds 
+  Import took 0.014517 seconds .
+
+14.10.2024 20:37:50|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006336 seconds.
+Begin MonoManager ReloadAssembly
+14.10.2024 20:37:51|Fatal|WebSocketServer.receiveRequest|
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2130ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (1861ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (677ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3037 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.2 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 4.105400 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.155600 ms MarkObjects: 3.516000 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+14.10.2024 20:39:15|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006539 seconds.
+Begin MonoManager ReloadAssembly
+14.10.2024 20:39:17|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|
+14.10.2024 20:39:17|Fatal|WebSocketServer.receiveRequest|
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (144ms)
+		EndReloadAssembly (1840ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (682ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3037 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3517.
+Total: 3.826900 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.079800 ms MarkObjects: 3.291000 ms  DeleteObjects: 0.114100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+14.10.2024 20:40:08|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006086 seconds.
+Begin MonoManager ReloadAssembly
+14.10.2024 20:40:09|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|
+14.10.2024 20:40:09|Fatal|WebSocketServer.receiveRequest|
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2109ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (164ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (675ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3037 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.4 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3525.
+Total: 4.217900 ms (FindLiveObjects: 0.573900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 3.461800 ms  DeleteObjects: 0.089900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+14.10.2024 20:41:42|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 350.327145 seconds.
+  path: Assets/Scripts/Scene5.nani
+  artifactKey: Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene5.nani using Guid(be2330e7398bda2478b5524dd62928d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075e2e9ecab875ad14637cb35456f5c0') in 0.078108 seconds 
+  Import took 0.084066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.347083 seconds.
+  path: Assets/Scripts/Map.nani
+  artifactKey: Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Map.nani using Guid(f614c64bbb068d3409c0e9ba891a0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accbe8470c7220ceb72d1d6e9e175a71') in 0.013735 seconds 
+  Import took 0.018961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.240516 seconds.
+  path: Assets/Scripts/FinalLocation1.nani
+  artifactKey: Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FinalLocation1.nani using Guid(fdb958ddb6d068a488ea1f75f6f10237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d45c7a72a37a0ca8d3ce22d1ac1d0c') in 0.013560 seconds 
+  Import took 0.019154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.880929 seconds.
+  path: Assets/Scripts/FinalLocation2.nani
+  artifactKey: Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FinalLocation2.nani using Guid(93a18875fc5097449b9cb7aba4efb81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c57f8e4f4598250ceb0bd603d1f7fff') in 0.011647 seconds 
+  Import took 0.016797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.185524 seconds.
+  path: Assets/Scripts/Scene2.nani
+  artifactKey: Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene2.nani using Guid(c341797ba2a64b54f8652382e36796fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f253f3bd596be14cab2b581de152e80e') in 0.016136 seconds 
+  Import took 0.021676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.744841 seconds.
+  path: Assets/Scripts/Scene4.nani
+  artifactKey: Guid(5f470b9d72b1cd34a97dc10959a3e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene4.nani using Guid(5f470b9d72b1cd34a97dc10959a3e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fb116d595eca7e106188704c85a6ad') in 0.009599 seconds 
+  Import took 0.015262 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
